@@ -9,8 +9,11 @@ HPC and DL Pracs
 ## For HPC Assignments 1-3
 
 Run the program as (gcc or g++): 
-<br> >> g++ filename.cpp -o filename.exe -fopenmp
-<br> >> ./filename.exe
+<br> >> g++ -fopenmp graph_DFS.cpp -o output
+<br> >> ./output
+
+<br> >> nvcc file.cu -o a
+<br> >> ./a
 
 ## For HPC Assignment 4
 
